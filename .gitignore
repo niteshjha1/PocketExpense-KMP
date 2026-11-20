@@ -1,23 +1,42 @@
+cat > .gitignore <<'EOF'
 # Gradle
 .gradle/
 build/
 **/build/
-
-# Kotlin
 .kotlin/
+
+# Local configuration
+local.properties
+
+# Android build outputs
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
 
 # Android Studio / IntelliJ
 .idea/
 *.iml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
-# Local machine configuration
-local.properties
+# Keystores and secrets
+*.jks
+*.keystore
+google-services.json
+
+# Logs and profiling
+*.log
+*.hprof
 
 # macOS
 .DS_Store
 
-# Xcode generated files
-iosApp/build/
+# Xcode
 DerivedData/
 *.xcuserstate
 xcuserdata/
+EOF
