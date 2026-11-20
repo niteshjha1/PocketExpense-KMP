@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local machine configuration
+local.properties
+
+# macOS
+.DS_Store
+
+# Xcode generated files
+iosApp/build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
